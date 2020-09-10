@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgreen;
+}
+header {
+  background-color: lightgray;
+}
+.container-fluid {
+  width: 100%;
+}
+.nav-link {
+  text-align: center;
+}
+.navbar-brand {
+  color: black;
+}
+.nav-link {
+  border: solid black 1px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+}
+h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+#chicken,
+#beef,
+#sushi {
+  background-color: lightgray;
+  padding: 20px;
+  border: solid black 1px;
+  border-radius: 5px;
+  overflow: visible;
+  float: left;
+  margin-bottom: 10px;
+}
